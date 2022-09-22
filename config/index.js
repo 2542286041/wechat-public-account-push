@@ -44,7 +44,7 @@ export const config = {
         horoscope: false,
 
         /** 生日消息和节日消息 */
-        birthdayMessage: true,
+        birthdayMessage: false,
     },
 
     /** 每日一言 */
@@ -60,7 +60,7 @@ export const config = {
     USERS: [
         {
             // 想要发送的人的名字
-            name: "傻宝",
+            name: "自己",
             // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: "okOuZ6JIa9lUJJWANmGng_BnO7S4",
             // 你想对他发送的模板消息的模板ID
