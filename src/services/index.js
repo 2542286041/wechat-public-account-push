@@ -648,18 +648,8 @@ export const getAggregatedData = async () => {
       { name: toLowerLine('windDirection'), value: windDirection, color: getColor() },
       { name: toLowerLine('windScale'), value: windScale, color: getColor() },
       { name: toLowerLine('birthdayMessage'), value: birthdayMessage, color: getColor() },
-      { name: toLowerLine('noteEn'), value: noteEn, color: getColor() },
       { name: toLowerLine('noteCh'), value: noteCh, color: getColor() },
       { name: toLowerLine('holidaytts'), value: holidaytts, color: getColor() },
-      { name: toLowerLine('oneTalk'), value: oneTalk, color: getColor() },
-      { name: toLowerLine('talkFrom'), value: talkFrom, color: getColor() },
-      { name: toLowerLine('earthyLoveWords'), value: earthyLoveWords, color: getColor() },
-      { name: toLowerLine('momentCopyrighting'), value: momentCopyrighting, color: getColor() },
-      { name: toLowerLine('poisonChickenSoup'), value: poisonChickenSoup, color: getColor() },
-      { name: toLowerLine('poetryContent'), value: poetryContent, color: getColor() },
-      { name: toLowerLine('poetryAuthor'), value: poetryAuthor, color: getColor() },
-      { name: toLowerLine('poetryDynasty'), value: poetryDynasty, color: getColor() },
-      { name: toLowerLine('poetryTitle'), value: poetryTitle, color: getColor() },
     ].concat(constellationFortune)
       .concat(dateDiffParams)
       .concat(slotParams)
