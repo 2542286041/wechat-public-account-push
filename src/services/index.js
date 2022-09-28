@@ -682,10 +682,10 @@ export const getCallbackTemplateParams = (messageReply) => {
   return [
     { name: toLowerLine('postTimeZone'), value: postTimeZone, color: "#FF0000" },
     { name: toLowerLine('postTime'), value: postTime, color: "#FF0000" },
-    { name: toLowerLine('needPostNum'), value: messageReply.needPostNum, color: getColor() },
-    { name: toLowerLine('successPostNum'), value: messageReply.successPostNum, color: getColor() },
+    { name: toLowerLine('needPostNum'), value: messageReply.needPostNum, color: "#0000FF" },
+    { name: toLowerLine('successPostNum'), value: messageReply.successPostNum, color: "#0000FF" },
     { name: toLowerLine('failPostNum'), value: messageReply.failPostNum, color: "#FF0000" },
-    { name: toLowerLine('successPostIds'), value: messageReply.successPostIds, color: getColor() },
+    { name: toLowerLine('successPostIds'), value: messageReply.successPostIds, color: "#0000FF" },
     { name: toLowerLine('failPostIds'), value: messageReply.failPostIds, color: "#FF0000" },
   ]
 }
