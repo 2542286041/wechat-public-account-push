@@ -49,7 +49,7 @@ export const config = {
             // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: "okOuZ6JIa9lUJJWANmGng_BnO7S4",
             // 你想对他发送的模板消息的模板ID
-            useTemplateId: "JFoS8o2nWwTtUCIp0V6NRbB8wImiwHow7CQat3M8RSQ",
+            useTemplateId: "sRTwMup29Z1gg9EQ2nb4UsKseRc6m9FS52c3Sw1sS0Q",
             // 所在省份
             province: "广东",
             // 所在城市
@@ -68,7 +68,7 @@ export const config = {
             // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: "okOuZ6JIa9lUJJWANmGng_BnO7S4",
             // 你想对他发送的模板消息的模板ID
-            useTemplateId: "0xYY-_9daugeVcBQttizwXJdW-YdH2HdpQ2js5FpxW4",
+            useTemplateId: "M1Fzyc3RSuMV-eu5KZkGHajrLr60sMMpdkqbjEcn3Go",
             // 所在省份
             province: "四川",
             // 所在城市
@@ -79,10 +79,6 @@ export const config = {
             horoscopeDateType: '今日',
             // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
             openUrl: "https://tianqi.moji.com/weather/china/sichuan/meishan",
-            CUSTOMIZED_DATE_LIST: [
-                // 在一起的日子
-                {"keyword": "love_day", date: "2022-10-06"},
-            ]
         }
     ],
 
@@ -161,7 +157,7 @@ export const config = {
      * */
     CUSTOMIZED_DATE_LIST: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
+        {"keyword": "love_day", date: "2022-10-06"},
         // 结婚纪念日
         {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
