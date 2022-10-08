@@ -26,20 +26,6 @@ export const config = {
         // 下一休息日综合提醒
         holidaytts: true,
 
-        /** 每日N句 */
-        // 金山每日一句
-        CIBA: false,
-        // 每日一言
-        oneTalk: false,
-        // 土味情话(彩虹屁)
-        earthyLoveWords: false,
-        // 朋友圈文案
-        momentCopyrighting: false,
-        // 毒鸡汤
-        poisonChickenSoup: false,
-        // 古诗古文
-        poetry: false,
-
         /** 星座运势 */
         horoscope: true,
 
@@ -48,7 +34,6 @@ export const config = {
     },
 
     /** 每日一言 */
-
     // 每日一言的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
     LITERARY_PREFERENCE: "",
@@ -64,24 +49,17 @@ export const config = {
             // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: "okOuZ6JIa9lUJJWANmGng_BnO7S4",
             // 你想对他发送的模板消息的模板ID
-            useTemplateId: "Ky-0CA-_I20sZWm71_OCS73mDWjT_mFGFxImtdtGpmA",
+            useTemplateId: "JFoS8o2nWwTtUCIp0V6NRbB8wImiwHow7CQat3M8RSQ",
             // 所在省份
             province: "广东",
             // 所在城市
             city: "深圳",
             // 新历生日, 仅用作获取星座运势, 格式必须
-            horoscopeDate: '12-27',
+            horoscopeDate: '06-25',
             // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
             horoscopeDateType: '今日',
             // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
             openUrl: "https://tianqi.moji.com/today/china/guangdong/shenzhen",
-            // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-            festivals: [
-                // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-                //{"type": "*生日", "name": "自己", "year": "2001", "date": "05-05"},
-                // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-                //{"type": "生日", "name": "自己", "year": "2001", "date": "06-25"},
-            ]
         },
         // 你可以不断按格式往下增加
         {
@@ -90,23 +68,20 @@ export const config = {
             // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: "okOuZ6JIa9lUJJWANmGng_BnO7S4",
             // 你想对他发送的模板消息的模板ID
-            useTemplateId: "qJQgTvxObFQ9YRSMiPlrmIDWVd5app6JV-GtQ3rdLZI",
+            useTemplateId: "0xYY-_9daugeVcBQttizwXJdW-YdH2HdpQ2js5FpxW4",
             // 所在省份
-            province: "广东",
+            province: "四川",
             // 所在城市
-            city: "深圳",
+            city: "眉山",
             // 新历生日, 仅用作获取星座运势, 格式必须
-            horoscopeDate: '12-27',
+            horoscopeDate: '3-01',
             // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
             horoscopeDateType: '今日',
             // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-            openUrl: "https://tianqi.moji.com/today/china/guangdong/shenzhen",
-            // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
-            festivals: [
-                // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-                //{"type": "*生日", "name": "自己", "year": "2001", "date": "05-05"},
-                // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-                //{"type": "生日", "name": "自己", "year": "2001", "date": "06-25"},
+            openUrl: "https://tianqi.moji.com/weather/china/sichuan/meishan",
+            CUSTOMIZED_DATE_LIST: [
+                // 在一起的日子
+                {"keyword": "love_day", date: "2022-10-06"},
             ]
         }
     ],
