@@ -62,7 +62,7 @@ export const config = {
             // 想要发送的人的名字
             name: "自己",
             // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-            id: "okOuZ6JIa9lUJJWANmGng_BnO7S4",
+            id: "qJQgTvxObFQ9YRSMiPlrmIDWVd5app6JV-GtQ3rdLZI",
             // 你想对他发送的模板消息的模板ID
             useTemplateId: "Ky-0CA-_I20sZWm71_OCS73mDWjT_mFGFxImtdtGpmA",
             // 所在省份
@@ -82,8 +82,33 @@ export const config = {
                 // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
                 //{"type": "生日", "name": "自己", "year": "2001", "date": "06-25"},
             ]
-        }
+        },
         // 你可以不断按格式往下增加
+        {
+            // 想要发送的人的名字
+            name: "自己",
+            // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+            id: "qJQgTvxObFQ9YRSMiPlrmIDWVd5app6JV-GtQ3rdLZI",
+            // 你想对他发送的模板消息的模板ID
+            useTemplateId: "qJQgTvxObFQ9YRSMiPlrmIDWVd5app6JV-GtQ3rdLZI",
+            // 所在省份
+            province: "广东",
+            // 所在城市
+            city: "深圳",
+            // 新历生日, 仅用作获取星座运势, 格式必须
+            horoscopeDate: '12-27',
+            // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+            horoscopeDateType: '今日',
+            // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+            openUrl: "https://tianqi.moji.com/today/china/guangdong/shenzhen",
+            // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+            festivals: [
+                // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+                //{"type": "*生日", "name": "自己", "year": "2001", "date": "05-05"},
+                // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+                //{"type": "生日", "name": "自己", "year": "2001", "date": "06-25"},
+            ]
+        }
     ],
 
     /**
