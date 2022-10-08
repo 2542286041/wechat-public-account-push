@@ -79,6 +79,24 @@ export const config = {
             horoscopeDateType: '今日',
             // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
             openUrl: "https://tianqi.moji.com/weather/china/sichuan/meishan",
+        },
+        {
+            // 想要发送的人的名字
+            name: "宝贝",
+            // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+            id: "okOuZ6Hh7D19I7rtcJS4am6M-IYc",
+            // 你想对他发送的模板消息的模板ID
+            useTemplateId: "M1Fzyc3RSuMV-eu5KZkGHajrLr60sMMpdkqbjEcn3Go",
+            // 所在省份
+            province: "四川",
+            // 所在城市
+            city: "眉山",
+            // 新历生日, 仅用作获取星座运势, 格式必须
+            horoscopeDate: '3-01',
+            // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+            horoscopeDateType: '今日',
+            // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+            openUrl: "https://tianqi.moji.com/weather/china/sichuan/meishan",
         }
     ],
 
