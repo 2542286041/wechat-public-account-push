@@ -1,7 +1,7 @@
 export const config = {
     /**
      * 公众号配置
-     */
+     */‘
 
     // 公众号APP_ID
     // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
