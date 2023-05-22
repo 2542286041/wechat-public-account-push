@@ -1,7 +1,7 @@
 export const config = {
     /**
      * 公众号配置
-     */‘
+     */
 
     // 公众号APP_ID
     // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
@@ -70,9 +70,9 @@ export const config = {
             // 你想对他发送的模板消息的模板ID
             useTemplateId: "M1Fzyc3RSuMV-eu5KZkGHajrLr60sMMpdkqbjEcn3Go",
             // 所在省份
-            province: "四川",
+            province: "广东",
             // 所在城市
-            city: "眉山",
+            city: "湛江",
             // 新历生日, 仅用作获取星座运势, 格式必须
             horoscopeDate: '3-01',
             // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
